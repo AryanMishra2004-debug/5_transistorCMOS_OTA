@@ -1,0 +1,31 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\aryan\OneDrive\Desktop\BTECH Maj Project\5transistor_OTA.net
+Start Time: Tue Nov 24 12:43:02 2026
+Options: ALLOW_AMBIGUOUS_MODELS
+C:\Users\aryan\OneDrive\Desktop\BTECH Maj Project\5transistor_OTA.net(3): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M2 N001 N002 Vout N001 PMOS
+                       ^^^^
+C:\Users\aryan\OneDrive\Desktop\BTECH Maj Project\5transistor_OTA.net(4): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M1 N002 N002 N001 N001 PMOS
+                       ^^^^
+C:\Users\aryan\OneDrive\Desktop\BTECH Maj Project\5transistor_OTA.net(6): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M3 N002 Vin1 N003 N003 NMOS
+                       ^^^^
+C:\Users\aryan\OneDrive\Desktop\BTECH Maj Project\5transistor_OTA.net(7): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M4 N003 Vin2 Vout N003 NMOS
+                       ^^^^
+C:\Users\aryan\OneDrive\Desktop\BTECH Maj Project\5transistor_OTA.net(8): This model has multiple definitions. Choosing one for you, unwisely. (Note: Option "ALLOW_AMBIGUOUS_MODELS" is enabled.)
+M5 N003 N004 0 0 NMOS
+                 ^^^^
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+.step 
+Total elapsed time: 0.114 seconds.
+
+Files loaded:
+C:\Users\aryan\OneDrive\Desktop\BTECH Maj Project\5transistor_OTA.net
+C:\Users\aryan\AppData\Local\LTspice\lib\cmp\standard.mos
+
